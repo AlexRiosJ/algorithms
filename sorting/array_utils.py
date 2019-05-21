@@ -7,6 +7,4 @@ def random_array(n, r):
     return array
 
 def swap(array, a, b):
-    temp = array[a]
-    array[a] = array[b]
-    array[b] = temp
+    array[a], array[b] = array[b], array[a]
